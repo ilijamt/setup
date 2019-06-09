@@ -2,6 +2,8 @@
 
 echo "Installing required tools for python"
 
+PYTHON_VERSION=3.7.3
+
 set -x
 
 if [[ ! -d "$HOME/.pyenv" ]]; then
@@ -10,6 +12,9 @@ if [[ ! -d "$HOME/.pyenv" ]]; then
 else
     pyenv update
 fi
+
+pyenv install "$PYTHON_VERSION"
+pyenv global "$PYTHON_VERSION"
 
 pip3 install pipx simplejson python-apt pycurl
 
