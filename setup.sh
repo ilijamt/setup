@@ -26,5 +26,4 @@ for f in scripts/*.sh; do
     _separator_with_filename "$f"
 done
 
-echo "Copy the configuration files to the your home directory at $HOME"
-cp -Rv ./.zshrc ./.conf.d/ $HOME
+bash setup.conf.d.sh
