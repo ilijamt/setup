@@ -29,7 +29,6 @@ brew "pwgen"
 brew "pyenv"
 brew "pyenv-virtualenv"
 brew "rustc-completion"
-brew "sshpass"
 brew "terraform", link: false
 brew "terraform@0.11", link: true
 brew "tmux"

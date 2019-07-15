@@ -4,6 +4,8 @@ function git_pull_or_clone() {
     echo "Installing/updating $2 into $1"
     if [[ ! -d "$1" ]]; then
         mkdir -p $1
+    fi
+    if [[ ! -d "$1/.git" ]]; then
         git clone $2 $1
     fi
     git -C $1 pull
