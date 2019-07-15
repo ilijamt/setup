@@ -8,3 +8,7 @@ Requires that you have **sudo** package is preinstalled.
 Supported OS:
 * Debian
 * MacOS
+
+## MacOS
+
+You need to setup the font of Hack Nerd of iterm2 or the whole system so that the terminal will show the icons properly

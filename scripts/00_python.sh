@@ -16,7 +16,7 @@ fi
 pyenv install "$PYTHON_VERSION"
 pyenv global "$PYTHON_VERSION"
 
-pip3 install pipx simplejson python-apt pycurl
+pip3 install pipx simplejson pycurl
 
 pipx install youtube-dl
 pipx install speedtest-cli
