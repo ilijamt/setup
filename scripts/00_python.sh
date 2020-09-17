@@ -2,7 +2,7 @@
 
 echo "Installing required tools for python"
 
-PYTHON_VERSION=3.7.3
+PYTHON_VERSION=3.8.5
 
 set -x
 
