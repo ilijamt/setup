@@ -1,4 +1,5 @@
 tap "aws/tap"
+tap "caskroom/cask"
 tap "git-chglog/git-chglog"
 tap "homebrew/bundle"
 tap "homebrew/cask"
